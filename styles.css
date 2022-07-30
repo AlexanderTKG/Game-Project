@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(84, 97, 97);
+}
+/* this is for the button*/
+.chosenSpell {
+  display: flex;
+  justify-content: center;
+}
+
+.spellChosen {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 5rem;
+  transition: 100ms;
+}
+
+.spellChosen:hover {
+  transform: scale(1.2);
+}
+
+#spellChosen {
+  width: 5rem;
+}
+
+/*This is part of the Player and the computer*/
+.result {
+  margin-top: 1rem;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.battle-score {
+  margin-left: 1rem;
+  font-size: 2rem;
+  color: #333;
+}
+
+.text {
+  text-align: center;
+  font-size: 3rem;
+}
+
+.resultSpell{
+  opacity: .5;
+  font-size: 1.5rem;
+}
+
+.resultSpell winner {
+  opacity: 1;
+  font-size: 2.5rem;
+}
