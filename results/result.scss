@@ -1,0 +1,26 @@
+$color_1: #ffffff;
+$color_2: #333;
+
+.result {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	align-items: center;
+	text-align: center;
+	font-size: 3.5rem;
+	font-style: italic;
+	color: $color_1;
+	text-shadow: 3px 5px 2px #474747;
+}
+.battle-score {
+	margin-left: 1rem;
+	font-size: 2rem;
+	color: $color_2;
+}
+.result-selection {
+	opacity: .3;
+	font-size: 3.5rem;
+}
+.result-selection.winner {
+	opacity: 1;
+	font-size: 3.5rem;
+}
