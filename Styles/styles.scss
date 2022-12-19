@@ -1,0 +1,8 @@
+@import './results';
+@import "./Spells";
+
+body {
+  background-color: $primary-color;
+  -webkit-box-shadow: $secondary-shadow-color; 
+  box-shadow: $secondary-shadow-color;
+}
